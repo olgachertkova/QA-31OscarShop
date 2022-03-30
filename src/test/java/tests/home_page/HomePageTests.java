@@ -17,6 +17,7 @@ public class HomePageTests extends TestBase {
 
     @Test
     public void test1(){
+        thisIsStaticMethod();
         System.out.println("This first test");
         try {
             Thread.sleep(5000);
