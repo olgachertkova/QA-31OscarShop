@@ -3,13 +3,15 @@ package pages;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
 
 public class LoginAndRegisterPage extends PageBase{
     public LoginAndRegisterPage(WebDriver driver) {
         super(driver);
     }
 
-    WebElement registerForm = driver.findElement(By.id("register_form"));
+    @FindBy(id = "register_form")
+    WebElement registerForm;
 
     public boolean loginAndRegistrationFormIsOpened() {
         return registerForm.isDisplayed();

@@ -9,13 +9,14 @@ import pages.LoginAndRegisterPage;
 import tests.TestBase;
 
 import static helpers.DataHelper.generateRandomEmail;
+import static helpers.DataHelper.randomNumeric;
 
 public class RegistrationTests extends TestBase {
     HomePage homePage;
     LoginAndRegisterPage loginAndRegisterPage;
 //    String email = generateRandomEmail(9);
-    String password = "qwe123456";
-    String email= "testemail123@gmail.com";
+    String password = "Qwe123456!";
+    String email= "testemail" + randomNumeric(3) + "@gmail.com";
 
     @BeforeMethod
     public void initTest(){

@@ -3,6 +3,7 @@ package pages;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
 
 public class HomePage extends PageBase{
 
@@ -10,8 +11,13 @@ public class HomePage extends PageBase{
         super(driver);
     }
 
-    WebElement homePageLink = driver.findElement(By.xpath("//a[contains(.,'Oscar')]"));
-    WebElement loginAndRegisterButton = driver.findElement(By.id("login_link"));
+    @FindBy(xpath = "//a[contains(.,'Oscar')]")
+    WebElement homePageLink;
+    @FindBy(id = "login_link")
+    WebElement loginAndRegisterButton;
+    @FindBy(css = ".alertinner.wicon")
+    WebElement registerSuccessMessage;
+
 
     public boolean homeLinkIsVisible() {
         return homePageLink.isDisplayed();
@@ -23,6 +29,7 @@ public class HomePage extends PageBase{
     }
 
     public boolean registerSuccessMessageIsDisplayed() {
-        return (driver.findElement(By.xpath("//*[contains(.,'Thanks')]")).isDisplayed());
+        waitUntilElementVisible(registerSuccessMessage, 30);
+        return registerSuccessMessage.isDisplayed();
     }
 }
