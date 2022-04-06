@@ -12,8 +12,8 @@ public class TestBase {
     public WebDriver driver;
 
     @BeforeMethod
-    public void setDriver(){
-        System.setProperty("webdriver.chrome.driver", "/usr/local/bin/chromedriver");
+    public void setDriver() {
+        //       System.setProperty("webdriver.chrome.driver", "/usr/local/bin/chromedriver");
         driver = new ChromeDriver();
         driver.get("http://selenium1py.pythonanywhere.com/en-gb/");
 //        driver.navigate().to("http://selenium1py.pythonanywhere.com/en-gb/");
@@ -22,7 +22,7 @@ public class TestBase {
     }
 
     @AfterMethod
-    public void closeBrowser(){
+    public void closeBrowser() {
         driver.close();
         driver.quit();
     }

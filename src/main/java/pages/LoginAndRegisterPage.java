@@ -4,14 +4,24 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
-public class LoginAndRegisterPage extends PageBase{
+public class LoginAndRegisterPage extends PageBase {
     public LoginAndRegisterPage(WebDriver driver) {
         super(driver);
     }
 
-    WebElement registerForm = driver.findElement(By.id("register_form"));
+    // WebElement registerForm = driver.findElement(By.id("register_form"));
+
+    public void pause(int mills) {
+        try {
+            Thread.sleep(mills);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+
+    }
 
     public boolean loginAndRegistrationFormIsOpened() {
+        WebElement registerForm = driver.findElement(By.id("register_form"));
         return registerForm.isDisplayed();
     }
 

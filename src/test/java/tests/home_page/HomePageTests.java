@@ -11,12 +11,12 @@ public class HomePageTests extends TestBase {
     HomePage homePage;
 
     @BeforeMethod
-    public void initTest(){
+    public void initTest() {
         homePage = new HomePage(driver);
     }
 
     @Test
-    public void homePageValidationTest(){
+    public void homePageValidationTest() {
         Assert.assertTrue(homePage.homeLinkIsVisible(), "Home Link");
     }
 
