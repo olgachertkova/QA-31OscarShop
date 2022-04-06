@@ -28,6 +28,7 @@ public class DataHelper {
             numStr += num;
         }
 
+        
         return numStr;
     }
 

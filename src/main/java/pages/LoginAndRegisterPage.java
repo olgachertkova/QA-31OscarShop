@@ -29,6 +29,7 @@ public class LoginAndRegisterPage extends PageBase{
         inputText(driver.findElement(By.id("id_registration-password2")), password);
     }
 
+
     public void clickOnRegisterButton() {
         click(driver.findElement(By.cssSelector("[name=\"registration_submit\"]")));
     }
