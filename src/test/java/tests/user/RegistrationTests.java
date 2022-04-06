@@ -22,6 +22,7 @@ public class RegistrationTests extends TestBase {
         homePage = PageFactory.initElements(driver, HomePage.class);
         loginAndRegisterPage = PageFactory.initElements(driver, LoginAndRegisterPage.class);
     }
+    
 
     @Test
     public void registrationPositiveTest(){
