@@ -9,29 +9,29 @@ import pages.LoginAndRegisterPage;
 import tests.TestBase;
 
 import static helpers.DataHelper.generateRandomEmail;
+import static helpers.DataHelper.randomNumeric;
 
 public class RegistrationTests extends TestBase {
     HomePage homePage;
     LoginAndRegisterPage loginAndRegisterPage;
-    //    String email = generateRandomEmail(9);
-    String password = "Fasd1234$";
-    String email = "test949@gmail.com";
+    String password = "Qwe123456!";
+    String email= "testemail" + randomNumeric(3) + "@gmail.com";
 
     @BeforeMethod
-    public void initTest() {
+    public void initTest(){
         homePage = PageFactory.initElements(driver, HomePage.class);
         loginAndRegisterPage = PageFactory.initElements(driver, LoginAndRegisterPage.class);
     }
 
+
     @Test
-    public void registrationPositiveTest() {
+    public void registrationPositiveTest(){
         homePage.clickToLoginAndRegisterButton();
         Assert.assertTrue(loginAndRegisterPage.loginAndRegistrationFormIsOpened());
         loginAndRegisterPage.fillEmailField(email);
         loginAndRegisterPage.fillPasswordField(password);
         loginAndRegisterPage.fillConfirmPasswordField(password);
         loginAndRegisterPage.clickOnRegisterButton();
-        loginAndRegisterPage.pause(5000);
         Assert.assertTrue(homePage.registerSuccessMessageIsDisplayed());
     }
 }

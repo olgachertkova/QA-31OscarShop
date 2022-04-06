@@ -1,5 +1,7 @@
 package helpers;
 
+import java.text.SimpleDateFormat;
+import java.util.Date;
 import java.util.Random;
 
 public class DataHelper {
@@ -13,5 +15,26 @@ public class DataHelper {
         }
         String randomEmail = randomStrings + "@.com";
         return randomEmail;
+    }
+
+    public static String randomNumeric(int strLen) {
+        String numStr = "";
+        Random random = new Random();
+        int i1 = random.nextInt(9) + 1;
+        numStr += i1;
+
+        for (int i = 0; i < strLen - 1; i++) {
+            int num = random.nextInt(10);
+            numStr += num;
+        }
+
+        
+        return numStr;
+    }
+
+    public static String getCurrentDateTime() {
+        SimpleDateFormat formatter = new SimpleDateFormat("yyyy.MM.dd HH:mm");
+        Date date = new Date(System.currentTimeMillis());
+        return formatter.format(date);
     }
 }

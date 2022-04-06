@@ -3,25 +3,17 @@ package pages;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
 
-public class LoginAndRegisterPage extends PageBase {
+public class LoginAndRegisterPage extends PageBase{
     public LoginAndRegisterPage(WebDriver driver) {
         super(driver);
     }
 
-    // WebElement registerForm = driver.findElement(By.id("register_form"));
-
-    public void pause(int mills) {
-        try {
-            Thread.sleep(mills);
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
-
-    }
+    @FindBy(id = "register_form")
+    WebElement registerForm;
 
     public boolean loginAndRegistrationFormIsOpened() {
-        WebElement registerForm = driver.findElement(By.id("register_form"));
         return registerForm.isDisplayed();
     }
 
@@ -36,6 +28,7 @@ public class LoginAndRegisterPage extends PageBase {
     public void fillConfirmPasswordField(String password) {
         inputText(driver.findElement(By.id("id_registration-password2")), password);
     }
+
 
     public void clickOnRegisterButton() {
         click(driver.findElement(By.cssSelector("[name=\"registration_submit\"]")));
