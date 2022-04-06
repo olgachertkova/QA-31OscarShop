@@ -19,6 +19,4 @@ public class HomePageTests extends TestBase {
     public void homePageValidationTest(){
         Assert.assertTrue(homePage.homeLinkIsVisible(), "Home Link");
     }
-
-
 }
