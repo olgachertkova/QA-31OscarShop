@@ -17,6 +17,12 @@ public class HomePage extends PageBase{
     WebElement loginAndRegisterButton;
     @FindBy(css = ".alertinner.wicon")
     WebElement registerSuccessMessage;
+    @FindBy(css = "[name=\"language\"]")
+    WebElement langSelector;
+    @FindBy(css = "button.btn.btn-default[type=\"submit\"]")
+    WebElement goButton;
+    @FindBy(css = ".basket-mini a.btn")
+    WebElement basketButton;
 
 
     public boolean homeLinkIsVisible() {
@@ -31,5 +37,21 @@ public class HomePage extends PageBase{
     public boolean registerSuccessMessageIsDisplayed() {
         waitUntilElementVisible(registerSuccessMessage, 30);
         return registerSuccessMessage.isDisplayed();
+    }
+
+    public void selectLang(String lang) {
+        selectInDropDownByValue(langSelector, lang);
+    }
+
+    public void clickOnGoButton() {
+        goButton.click();
+    }
+
+    public String getTextFromGoButton() {
+        return goButton.getText();
+    }
+
+    public String getTextFromBasketButton() {
+        return basketButton.getText();
     }
 }
