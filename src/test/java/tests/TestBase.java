@@ -9,7 +9,7 @@ import org.testng.annotations.BeforeMethod;
 import static helpers.APIHelper.thisIsStaticMethod;
 
 public class TestBase {
-    WebDriver driver;
+    public WebDriver driver;
 
     @BeforeMethod
     public void setDriver(){
@@ -23,6 +23,7 @@ public class TestBase {
 
     @AfterMethod
     public void closeBrowser(){
+        driver.close();
         driver.quit();
     }
 }
