@@ -14,7 +14,6 @@ import static helpers.DataHelper.randomNumeric;
 public class RegistrationTests extends TestBase {
     HomePage homePage;
     LoginAndRegisterPage loginAndRegisterPage;
-//    String email = generateRandomEmail(9);
     String password = "Qwe123456!";
     String email= "testemail" + randomNumeric(3) + "@gmail.com";
 
