@@ -1,0 +1,9 @@
+4431 [main] INFO  tests.TestBase - Start of the test--->changeLanguageTest
+4455 [main] INFO  tests.TestBase - Test languageCheck starts with data-->ru-->Выполнить
+6638 [main] INFO  tests.TestBase - The end of the test--->changeLanguageTest
+6639 [main] INFO  tests.TestBase - Start of the test--->changeLanguageTest
+6641 [main] INFO  tests.TestBase - Test languageCheck starts with data-->de-->Ausführen
+9705 [main] INFO  tests.TestBase - The end of the test--->changeLanguageTest
+9707 [main] INFO  tests.TestBase - Start of the test--->changeLanguageTest
+9713 [main] INFO  tests.TestBase - Test languageCheck starts with data-->en-gb-->Go
+13737 [main] INFO  tests.TestBase - The end of the test--->changeLanguageTest
