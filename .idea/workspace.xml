@@ -4,7 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9d0d0fd9-0987-4315-b6b9-4bdfcb477abd" name="Changes" comment="commit 08.04" />
+    <list default="true" id="6ffd16d7-b9d5-434b-adfc-f8ccd763e53a" name="Changes" comment="last commit">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/QA31.iml" beforeDir="false" afterPath="$PROJECT_DIR$/QA31.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/TestBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/home_page/HomePageTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/home_page/HomePageTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/TestBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/TestBase.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/home_page/HomePageTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/home_page/HomePageTests.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -45,7 +55,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Qa30_DemoQa-master" />
   </component>
   <component name="RunManager" selected="TestNG.HomePageTests.changeLanguageTest">
     <configuration name="HomePageTests.changeLanguageTest" type="TestNG" temporary="true" nameIsGenerated="true">
@@ -133,7 +143,7 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="9d0d0fd9-0987-4315-b6b9-4bdfcb477abd" name="Changes" comment="" />
+      <changelist id="6ffd16d7-b9d5-434b-adfc-f8ccd763e53a" name="Changes" comment="last commit" />
       <created>1649159709882</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -178,6 +188,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first commit" />
     <MESSAGE value="commit 08.04" />
-    <option name="LAST_COMMIT_MESSAGE" value="commit 08.04" />
+    <MESSAGE value="last commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="last commit" />
   </component>
 </project>
