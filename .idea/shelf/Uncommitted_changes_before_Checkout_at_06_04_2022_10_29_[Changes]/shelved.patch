@@ -1,0 +1,85 @@
+Index: pom.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project xmlns=\"http://maven.apache.org/POM/4.0.0\"\r\n         xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"\r\n         xsi:schemaLocation=\"http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd\">\r\n    <modelVersion>4.0.0</modelVersion>\r\n\r\n    <groupId>org.example</groupId>\r\n    <artifactId>QA31</artifactId>\r\n    <version>1.0-SNAPSHOT</version>\r\n\r\n    <properties>\r\n        <maven.compiler.source>11</maven.compiler.source>\r\n        <maven.compiler.target>11</maven.compiler.target>\r\n    </properties>\r\n\r\n    <dependencies>\r\n        <!-- Selenium java client -->\r\n        <dependency>\r\n            <groupId>org.seleniumhq.selenium</groupId>\r\n            <artifactId>selenium-java</artifactId>\r\n            <version>3.141.59</version>\r\n        </dependency>\r\n        <!--TestNG -->\r\n        <dependency>\r\n            <groupId>org.testng</groupId>\r\n            <artifactId>testng</artifactId>\r\n            <version>7.0.0</version>\r\n        </dependency>\r\n        <!-- Yandex AShot -->\r\n        <dependency>\r\n            <groupId>ru.yandex.qatools.ashot</groupId>\r\n            <artifactId>ashot</artifactId>\r\n            <version>1.5.4</version>\r\n        </dependency>\r\n        <dependency>\r\n            <groupId>org.apache.maven.plugins</groupId>\r\n            <artifactId>maven-surefire-plugin</artifactId>\r\n            <version>3.0.0-M5</version>\r\n            <type>maven-plugin</type>\r\n        </dependency>\r\n    </dependencies>\r\n\r\n    <build>\r\n        <resources>\r\n            <resource>\r\n                <directory>src/main/resources</directory>\r\n                <filtering>true</filtering>\r\n            </resource>\r\n        </resources>\r\n        <testResources>\r\n            <testResource>\r\n                <directory>src/test/resources</directory>\r\n                <filtering>true</filtering>\r\n            </testResource>\r\n        </testResources>\r\n        <plugins>\r\n\r\n            <plugin>\r\n                <groupId>org.apache.maven.plugins</groupId>\r\n                <artifactId>maven-resources-plugin</artifactId>\r\n                <version>3.1.0</version>\r\n                <configuration>\r\n                    <encoding>UTF-8</encoding>\r\n                </configuration>\r\n            </plugin>\r\n            <plugin>\r\n                <artifactId>maven-surefire-plugin</artifactId>\r\n                <version>3.0.0-M5</version>\r\n                <configuration>\r\n                    <suiteXmlFiles>\r\n                        <suiteXmlFile>src/test/resources/testng.xml</suiteXmlFile>\r\n                    </suiteXmlFiles>\r\n                    <systemPropertyVariables>\r\n                        <application.properties>/application.properties</application.properties>\r\n                    </systemPropertyVariables>\r\n                </configuration>\r\n            </plugin>\r\n            <plugin>\r\n                <artifactId>maven-compiler-plugin</artifactId>\r\n                <version>3.1</version>\r\n                <configuration>\r\n                    <source>1.8</source>\r\n                    <target>1.8</target>\r\n                </configuration>\r\n            </plugin>\r\n        </plugins>\r\n    </build>\r\n\r\n\r\n\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/pom.xml b/pom.xml
+--- a/pom.xml	(revision 8f720c74c95eaf9fffee75035257042fbd6114c2)
++++ b/pom.xml	(date 1649229007941)
+@@ -4,13 +4,13 @@
+          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+     <modelVersion>4.0.0</modelVersion>
+ 
+-    <groupId>org.example</groupId>
+-    <artifactId>QA31</artifactId>
++    <groupId>com.telran</groupId>
++    <artifactId>Practice</artifactId>
+     <version>1.0-SNAPSHOT</version>
+ 
+     <properties>
+-        <maven.compiler.source>11</maven.compiler.source>
+-        <maven.compiler.target>11</maven.compiler.target>
++        <maven.compiler.source>8</maven.compiler.source>
++        <maven.compiler.target>8</maven.compiler.target>
+     </properties>
+ 
+     <dependencies>
+@@ -31,19 +31,13 @@
+             <groupId>ru.yandex.qatools.ashot</groupId>
+             <artifactId>ashot</artifactId>
+             <version>1.5.4</version>
+-        </dependency>
+-        <dependency>
+-            <groupId>org.apache.maven.plugins</groupId>
+-            <artifactId>maven-surefire-plugin</artifactId>
+-            <version>3.0.0-M5</version>
+-            <type>maven-plugin</type>
+         </dependency>
+     </dependencies>
+ 
+     <build>
+         <resources>
+             <resource>
+-                <directory>src/main/resources</directory>
++                <directory>srewrRe4/main/resources</directory>
+                 <filtering>true</filtering>
+             </resource>
+         </resources>
+@@ -65,7 +59,7 @@
+             </plugin>
+             <plugin>
+                 <artifactId>maven-surefire-plugin</artifactId>
+-                <version>3.0.0-M5</version>
++                <version>2.12.4</version>
+                 <configuration>
+                     <suiteXmlFiles>
+                         <suiteXmlFile>src/test/resources/testng.xml</suiteXmlFile>
+@@ -86,6 +80,4 @@
+         </plugins>
+     </build>
+ 
+-
+-
+ </project>
+\ No newline at end of file
+Index: src/test/java/tests/TestBase.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package tests;\r\n\r\nimport helpers.APIHelper;\r\nimport org.openqa.selenium.WebDriver;\r\nimport org.openqa.selenium.chrome.ChromeDriver;\r\nimport org.testng.annotations.AfterMethod;\r\nimport org.testng.annotations.BeforeMethod;\r\n\r\nimport static helpers.APIHelper.thisIsStaticMethod;\r\n\r\npublic class TestBase {\r\n    WebDriver driver;\r\n\r\n    @BeforeMethod\r\n    public void setDriver(){\r\n        System.setProperty(\"webdriver.chrome.driver\", \"/usr/local/bin/chromedriver\");\r\n        driver = new ChromeDriver();\r\n        driver.get(\"http://selenium1py.pythonanywhere.com/en-gb/\");\r\n//        driver.navigate().to(\"http://selenium1py.pythonanywhere.com/en-gb/\");\r\n        driver.manage().window().maximize();\r\n//        driver.manage().window().fullscreen();\r\n    }\r\n\r\n    @AfterMethod\r\n    public void closeBrowser(){\r\n        driver.quit();\r\n    }\r\n}\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/test/java/tests/TestBase.java b/src/test/java/tests/TestBase.java
+--- a/src/test/java/tests/TestBase.java	(revision 8f720c74c95eaf9fffee75035257042fbd6114c2)
++++ b/src/test/java/tests/TestBase.java	(date 1649229988488)
+@@ -13,7 +13,7 @@
+ 
+     @BeforeMethod
+     public void setDriver(){
+-        System.setProperty("webdriver.chrome.driver", "/usr/local/bin/chromedriver");
++       // System.setProperty("webdriver.chrome.driver", "/usr/local/bin/chromedriver");
+         driver = new ChromeDriver();
+         driver.get("http://selenium1py.pythonanywhere.com/en-gb/");
+ //        driver.navigate().to("http://selenium1py.pythonanywhere.com/en-gb/");

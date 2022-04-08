@@ -15,9 +15,9 @@ public class TestBase {
     public void setDriver() {
         //       System.setProperty("webdriver.chrome.driver", "/usr/local/bin/chromedriver");
         driver = new ChromeDriver();
+        driver.manage().window().maximize();
         driver.get("http://selenium1py.pythonanywhere.com/en-gb/");
 //        driver.navigate().to("http://selenium1py.pythonanywhere.com/en-gb/");
-        driver.manage().window().maximize();
 //        driver.manage().window().fullscreen();
     }
 

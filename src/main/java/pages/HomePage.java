@@ -17,8 +17,12 @@ public class HomePage extends PageBase{
     WebElement loginAndRegisterButton;
     @FindBy(css = ".alertinner.wicon")
     WebElement registerSuccessMessage;
-    @FindBy(css =  "[name='language']")
+    @FindBy(css = "[name=\"language\"]")
     WebElement langSelector;
+    @FindBy(css = "button.btn.btn-default[type=\"submit\"]")
+    WebElement goButton;
+    @FindBy(css = ".basket-mini a.btn")
+    WebElement basketButton;
 
 
     public boolean homeLinkIsVisible() {
@@ -36,16 +40,18 @@ public class HomePage extends PageBase{
     }
 
     public void selectLang(String lang) {
-        selectInDropDownByValue(langSelector,lang);
+        selectInDropDownByValue(langSelector, lang);
     }
 
-    public void clickOnGo() {
-        WebElement element = driver.findElement(By.xpath("//button[normalize-space()='Go']"));
-        element.click();
+    public void clickOnGoButton() {
+        goButton.click();
     }
 
-    public String getTextFromGoBtn() {
-        WebElement element = driver.findElement(By.xpath("//button[normalize-space()='Go']"));
-        return element.getText() ;
+    public String getTextFromGoButton() {
+        return goButton.getText();
+    }
+
+    public String getTextFromBasketButton() {
+        return basketButton.getText();
     }
 }

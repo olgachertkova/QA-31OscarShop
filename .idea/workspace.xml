@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="9d0d0fd9-0987-4315-b6b9-4bdfcb477abd" name="Changes" comment="commit 08.04" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Merge.Settings">
+    <option name="BRANCH" value="master" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="IliaF" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/test/java/tests/home_page/HomePageTests.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/test/java/tests/TestBase.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/pages/HomePage.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/pages/LoginAndRegisterPage.java" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="ProjectId" id="27NTmyBvzSgSrFPXLKZ2AC1nPkP" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunManager" selected="TestNG.HomePageTests.changeLanguageTest">
+    <configuration name="HomePageTests.changeLanguageTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="QA31" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.home_page.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests.home_page" />
+      <option name="MAIN_CLASS_NAME" value="tests.home_page.HomePageTests" />
+      <option name="METHOD_NAME" value="changeLanguageTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HomePageTests.homePageValidationTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="QA31" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.home_page.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests.home_page" />
+      <option name="MAIN_CLASS_NAME" value="tests.home_page.HomePageTests" />
+      <option name="METHOD_NAME" value="homePageValidationTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HomePageTests.test1" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="QA31" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.home_page.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests.home_page" />
+      <option name="MAIN_CLASS_NAME" value="tests.home_page.HomePageTests" />
+      <option name="METHOD_NAME" value="test1" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RegistrationTests.registrationPositiveTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="QA31" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.user.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests.user" />
+      <option name="MAIN_CLASS_NAME" value="tests.user.RegistrationTests" />
+      <option name="METHOD_NAME" value="registrationPositiveTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.HomePageTests.changeLanguageTest" />
+        <item itemvalue="TestNG.RegistrationTests.registrationPositiveTest" />
+        <item itemvalue="TestNG.HomePageTests.test1" />
+        <item itemvalue="TestNG.HomePageTests.homePageValidationTest" />
+        <item itemvalue="TestNG.RegistrationTests.registrationPositiveTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9d0d0fd9-0987-4315-b6b9-4bdfcb477abd" name="Changes" comment="" />
+      <created>1649159709882</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1649159709882</updated>
+    </task>
+    <task id="LOCAL-00001" summary="first commit">
+      <created>1649263900082</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1649263900082</updated>
+    </task>
+    <task id="LOCAL-00002" summary="commit 08.04">
+      <created>1649405769992</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1649405769992</updated>
+    </task>
+    <task id="LOCAL-00003" summary="commit 08.04">
+      <created>1649405958942</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1649405958942</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="first commit" />
+    <MESSAGE value="commit 08.04" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit 08.04" />
+  </component>
+</project>
