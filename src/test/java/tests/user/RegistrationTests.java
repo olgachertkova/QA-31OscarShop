@@ -8,7 +8,6 @@ import pages.HomePage;
 import pages.LoginAndRegisterPage;
 import tests.TestBase;
 
-import static helpers.DataHelper.generateRandomEmail;
 import static helpers.DataHelper.randomNumeric;
 
 public class RegistrationTests extends TestBase {
