@@ -25,7 +25,7 @@ public class HomePageTests extends TestBase {
     @Test(dataProvider = "languageCheck", dataProviderClass = MyDataProvider.class)
     public void changeLanguageTest(String lang, String expTextGoButton){
        // String expTextBasketButton = "Посмотреть корзину";
-        logger.info("Test languageCheck starts with data-->"+lang+"-->"+expTextGoButton);
+        logger.info("Test starts with data-->"+lang+"-->"+expTextGoButton);
         homePage.selectLang(lang);
         homePage.clickOnGoButton();
         Assert.assertEquals(homePage.getTextFromGoButton(), expTextGoButton, "Texts are different!!");
