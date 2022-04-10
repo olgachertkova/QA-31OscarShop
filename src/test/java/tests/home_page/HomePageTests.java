@@ -1,5 +1,6 @@
 package tests.home_page;
 
+import helpers.MyDataProvider;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
@@ -21,15 +22,14 @@ public class HomePageTests extends TestBase {
         Assert.assertTrue(homePage.homeLinkIsVisible(), "Home Link");
     }
 
-    @Test
-    public void changeLanguageTest(){
-        String lang = "ru";
-        String expTextGoButton = "Выполнить";
-        String expTextBasketButton = "Посмотреть корзину";
+    @Test(dataProvider = "languageCheck", dataProviderClass = MyDataProvider.class)
+    public void changeLanguageTest(String lang, String expTextGoButton){
+       // String expTextBasketButton = "Посмотреть корзину";
+        logger.info("Test starts with data-->"+lang+"-->"+expTextGoButton);
         homePage.selectLang(lang);
         homePage.clickOnGoButton();
         Assert.assertEquals(homePage.getTextFromGoButton(), expTextGoButton, "Texts are different!!");
-        Assert.assertEquals(homePage.getTextFromBasketButton(), expTextBasketButton, "Texts are different!!");
+        //Assert.assertEquals(homePage.getTextFromBasketButton(), expTextBasketButton, "Texts are different!!");
     }
 
 
