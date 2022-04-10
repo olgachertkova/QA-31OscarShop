@@ -33,4 +33,43 @@ public class LoginAndRegisterPage extends PageBase{
     public void clickOnRegisterButton() {
         click(driver.findElement(By.cssSelector("[name=\"registration_submit\"]")));
     }
+
+    public boolean loginFormIsDisplayed() {
+        return registerForm.isDisplayed();
+    }
+    @FindBy(id = "id_login-username")
+    WebElement emailField;
+    @FindBy(id = "id_login-password")
+    WebElement passwordField;
+    public void fillLoginForm(String email, String password) {
+        inputText(emailField, email);
+        inputText(passwordField, password);
+    }
+
+    @FindBy(xpath = "//button[@name='login_submit']")
+    WebElement btnLogin;
+    public void clickBTNLogIn() {
+        btnLogin.click();
+    }
+
+    @FindBy(xpath = "//div[@class='alert alert-danger']")
+    WebElement logAllert;
+
+    public boolean allertIsDisplayed() {
+        return logAllert.isDisplayed();
+    }
+
+    @FindBy(xpath = "//*[contains(text(),'Oops! We found some errors')]")
+    WebElement someErrors;
+    public boolean massageErrorIsDisplaeyd() {
+        return someErrors.isDisplayed();
+    }
+
+
+
+
+
+
+
+
 }

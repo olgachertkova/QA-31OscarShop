@@ -16,6 +16,12 @@ public class PageBase {
     public PageBase(WebDriver driver){
         this.driver = driver;
     }
+
+    public void should(WebElement element, int time) {
+        new WebDriverWait(driver, time)
+                .until(ExpectedConditions.visibilityOf(element));
+    }
+
     public void uploadFile(WebElement element, String filePath){
         waitUntilElementClickable(element, timeWaitElement);
         inputText(element, filePath);

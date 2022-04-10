@@ -25,6 +25,7 @@ public class HomePage extends PageBase{
     WebElement basketButton;
 
 
+
     public boolean homeLinkIsVisible() {
         return homePageLink.isDisplayed();
     }
@@ -53,5 +54,26 @@ public class HomePage extends PageBase{
 
     public String getTextFromBasketButton() {
         return basketButton.getText();
+    }
+
+    public void openLoginRegForm() {
+        should(loginAndRegisterButton, 20);
+        loginAndRegisterButton.click();
+    }
+
+    @FindBy(xpath = "//div[contains(text(),'Welcome back')]")
+    WebElement massageSuccessLogin;
+    public boolean loginSuccessMassageIsDiplayed() {
+        //waitUntilElementInVisible(massageSuccessLogin,30);
+        return massageSuccessLogin.isDisplayed();
+
+    }
+
+    @FindBy (id = "logout_link")
+    WebElement logout;
+
+    public void logOut() {
+        waitUntilElementVisible(logout,30);
+        logout.click();
     }
 }
