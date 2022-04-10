@@ -1,15 +1,31 @@
 package tests;
 
-import helpers.APIHelper;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.ITestResult;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
+import pages.PageBase;
 
-import static helpers.APIHelper.thisIsStaticMethod;
+import java.io.IOException;
+import java.lang.reflect.Method;
+import java.util.Arrays;
+
+import static helpers.PageActionHelper.takeScreenShot;
 
 public class TestBase {
     public WebDriver driver;
+    Logger logger = LoggerFactory.getLogger(TestBase.class);
+
+    @BeforeMethod(alwaysRun = true)
+    public void startTest(Method m, Object[] p){
+        logger.info("Start test: " + m.getName());
+        if(p.length != 0) {
+            logger.info(" --> With data: " + Arrays.asList(p));
+        }
+    }
 
     @BeforeMethod
     public void setDriver(){
@@ -22,7 +38,16 @@ public class TestBase {
     }
 
     @AfterMethod
-    public void closeBrowser(){
+    public void closeBrowser(ITestResult result) throws IOException {
+        if(result.isSuccess()){
+            logger.info("Test result: PASSED");
+        }else{
+            logger.error("Test result: FAILED");
+            logger.info("Screenshot: " + takeScreenShot(driver));
+        }
+        logger.info("Stop test: " + result.getMethod().getMethodName());
+        logger.info("======================================================");
+
         driver.close();
         driver.quit();
     }
