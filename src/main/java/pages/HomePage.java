@@ -5,7 +5,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
-public class HomePage extends PageBase{
+public class HomePage extends PageBase {
 
     public HomePage(WebDriver driver) {
         super(driver);
@@ -23,6 +23,7 @@ public class HomePage extends PageBase{
     WebElement goButton;
     @FindBy(css = ".basket-mini a.btn")
     WebElement basketButton;
+
 
 
     public boolean homeLinkIsVisible() {
@@ -53,5 +54,10 @@ public class HomePage extends PageBase{
 
     public String getTextFromBasketButton() {
         return basketButton.getText();
+    }
+
+    public ProductPage clickProduct() {
+       driver.findElement(By.xpath("//ul[@class='dropdown-menu']//li[1]")).click();
+        return new ProductPage(driver);
     }
 }
