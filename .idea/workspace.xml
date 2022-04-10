@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9d0d0fd9-0987-4315-b6b9-4bdfcb477abd" name="Changes" comment="commit 08.04" />
+    <list default="true" id="6ffd16d7-b9d5-434b-adfc-f8ccd763e53a" name="Changes" comment="data provider and logger" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -23,7 +23,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="IliaF" />
+        <entry key="$PROJECT_DIR$" value="master" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -122,11 +122,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.HomePageTests.changeLanguageTest" />
         <item itemvalue="TestNG.RegistrationTests.registrationPositiveTest" />
         <item itemvalue="TestNG.HomePageTests.test1" />
         <item itemvalue="TestNG.HomePageTests.homePageValidationTest" />
-        <item itemvalue="TestNG.RegistrationTests.registrationPositiveTest" />
+        <item itemvalue="TestNG.HomePageTests.changeLanguageTest" />
+        <item itemvalue="TestNG.HomePageTests.changeLanguageTest" />
       </list>
     </recent_temporary>
   </component>
@@ -168,7 +168,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="IliaF" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
