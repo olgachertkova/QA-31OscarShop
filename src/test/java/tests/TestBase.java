@@ -17,19 +17,19 @@ import static helpers.PageActionHelper.takeScreenShot;
 
 public class TestBase {
     public WebDriver driver;
-    Logger logger = LoggerFactory.getLogger(TestBase.class);
+    //Logger logger = LoggerFactory.getLogger(TestBase.class);
 
-    @BeforeMethod(alwaysRun = true)
-    public void startTest(Method m, Object[] p){
-        logger.info("Start test: " + m.getName());
-        if(p.length != 0) {
-            logger.info(" --> With data: " + Arrays.asList(p));
-        }
-    }
+//    @BeforeMethod(alwaysRun = true)
+//    public void startTest(Method m, Object[] p){
+//        logger.info("Start test: " + m.getName());
+//        if(p.length != 0) {
+//            logger.info(" --> With data: " + Arrays.asList(p));
+//        }
+//    }
 
     @BeforeMethod
     public void setDriver(){
-        System.setProperty("webdriver.chrome.driver", "/usr/local/bin/chromedriver");
+        //System.setProperty("webdriver.chrome.driver", "/usr/local/bin/chromedriver");
         driver = new ChromeDriver();
         driver.manage().window().maximize();
         driver.get("http://selenium1py.pythonanywhere.com/en-gb/");
@@ -38,17 +38,23 @@ public class TestBase {
     }
 
     @AfterMethod
-    public void closeBrowser(ITestResult result) throws IOException {
-        if(result.isSuccess()){
-            logger.info("Test result: PASSED");
-        }else{
-            logger.error("Test result: FAILED");
-            logger.info("Screenshot: " + takeScreenShot(driver));
-        }
-        logger.info("Stop test: " + result.getMethod().getMethodName());
-        logger.info("======================================================");
-
-        driver.close();
+    public void tearDown(){
+                driver.close();
         driver.quit();
     }
+
+//    @AfterMethod
+//    public void closeBrowser(ITestResult result) throws IOException {
+//        if(result.isSuccess()){
+//            logger.info("Test result: PASSED");
+//        }else{
+//            logger.error("Test result: FAILED");
+//            logger.info("Screenshot: " + takeScreenShot(driver));
+//        }
+//        logger.info("Stop test: " + result.getMethod().getMethodName());
+//        logger.info("======================================================");
+//
+//        driver.close();
+//        driver.quit();
+//    }
 }

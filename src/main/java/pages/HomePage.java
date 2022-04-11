@@ -76,4 +76,29 @@ public class HomePage extends PageBase{
         waitUntilElementVisible(logout,30);
         logout.click();
     }
+
+    @FindBy (id = "id_q")
+    WebElement searchField;
+    public void fillFieldSearch(String product) {
+        inputText(searchField,product);
+    }
+
+    @FindBy (xpath = "//input[@class='btn btn-default']")
+    WebElement searchButton;
+    public void clickBTNsearch() {
+        searchButton.click();
+    }
+
+    @FindBy (xpath = "//h1[contains(.,'Products matching ')]")
+    WebElement searchResult;
+    public boolean searchResultTextIsDisplayed() {
+        waitUntilElementVisible(searchResult,30);
+        return searchResult.isDisplayed();
+    }
+    @FindBy(xpath = "//form//p[contains(.,'Found 0 results.')]")
+    WebElement formResult;
+    public boolean formResultIsDisplayed() {
+        return formResult.isDisplayed();
+    }
+
 }

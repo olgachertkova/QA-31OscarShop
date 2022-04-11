@@ -5,7 +5,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
-public class LoginAndRegisterPage extends PageBase{
+public class LoginAndRegisterPage extends PageBase {
     public LoginAndRegisterPage(WebDriver driver) {
         super(driver);
     }
@@ -37,10 +37,12 @@ public class LoginAndRegisterPage extends PageBase{
     public boolean loginFormIsDisplayed() {
         return registerForm.isDisplayed();
     }
+
     @FindBy(id = "id_login-username")
     WebElement emailField;
     @FindBy(id = "id_login-password")
     WebElement passwordField;
+
     public void fillLoginForm(String email, String password) {
         inputText(emailField, email);
         inputText(passwordField, password);
@@ -48,6 +50,7 @@ public class LoginAndRegisterPage extends PageBase{
 
     @FindBy(xpath = "//button[@name='login_submit']")
     WebElement btnLogin;
+
     public void clickBTNLogIn() {
         btnLogin.click();
     }
@@ -61,15 +64,16 @@ public class LoginAndRegisterPage extends PageBase{
 
     @FindBy(xpath = "//*[contains(text(),'Oops! We found some errors')]")
     WebElement someErrors;
+
     public boolean massageErrorIsDisplaeyd() {
         return someErrors.isDisplayed();
     }
 
+    @FindBy(xpath = "//div[contains(@id,'messages')]")
+    WebElement messWrongFormat;
 
-
-
-
-
-
-
+    public boolean massageWrongFormatIsDisplayed()  {
+       //waitUntilElementVisible(messWrongFormat, 10);
+        return messWrongFormat.isDisplayed();
+    }
 }
