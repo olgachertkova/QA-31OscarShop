@@ -32,5 +32,12 @@ public class HomePageTests extends TestBase {
         Assert.assertEquals(homePage.getTextFromBasketButton(), expTextBasketButton, "Texts are different!!");
     }
 
+    @Test(dataProviderClass = DataProviders.class, dataProvider = "readingDataFromFile")
+    public void changeLanguageTestDataProvider(String lang, String expTextGoButton){
+        homePage.selectLang(lang);
+        homePage.clickOnGoButton();
+        Assert.assertEquals(homePage.getTextFromGoButton(), expTextGoButton, "Texts are different!!");
+    }
+
 
 }
