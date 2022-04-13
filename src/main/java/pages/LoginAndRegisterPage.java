@@ -69,11 +69,22 @@ public class LoginAndRegisterPage extends PageBase {
         return someErrors.isDisplayed();
     }
 
-    @FindBy(xpath = "//div[contains(@id,'messages')]")
+    @FindBy(xpath = "//div[@style='visibility: visible;']")
     WebElement messWrongFormat;
 
     public boolean massageWrongFormatIsDisplayed()  {
-       //waitUntilElementVisible(messWrongFormat, 10);
+       waitUntilElementVisible(messWrongFormat, 10);
         return messWrongFormat.isDisplayed();
+    }
+
+    public void fillEmailAddress(String email) {
+        inputText(emailField, email);
+    }
+    @FindBy(xpath = "//a[@href='/en-gb/password-reset/']")
+    WebElement forgotterMyPassword;
+
+
+    public void clickOnLinkForgottenPassword() {
+        forgotterMyPassword.click();
     }
 }
