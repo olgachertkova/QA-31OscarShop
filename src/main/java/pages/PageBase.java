@@ -79,5 +79,13 @@ public class PageBase {
         }
     }
 
+    public void type(WebElement element, String text) {
+        if (text != null && !text.isEmpty()) {
+            element.click();
+            element.clear();
+            element.sendKeys(text);
+        }
+    }
+
 
 }

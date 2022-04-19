@@ -4,21 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9d0d0fd9-0987-4315-b6b9-4bdfcb477abd" name="Changes" comment="commit 19_04">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_06_04_2022_10_29_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_06_04_2022_10_29__Changes_.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_06_04_2022_11_43_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_06_04_2022_11_43__Changes_.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_08_04_2022_11_13_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_08_04_2022_11_13__Changes_.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_08_04_2022_11_15_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_08_04_2022_11_15__Changes_.xml" beforeDir="false" />
+    <list default="true" id="9d0d0fd9-0987-4315-b6b9-4bdfcb477abd" name="Changes" comment="commit 19_04_new_branch2">
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_19_04_2022_11_17__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_19_04_2022_11_17__Changes_.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/QA31.iml" beforeDir="false" afterPath="$PROJECT_DIR$/QA31.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/logback.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/helpers/MyDataProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/helpers/MyDataProvider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/PageBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/PageBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/SearchPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/SearchPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/TestBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/home_page/HomePageTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/home_page/HomePageTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/search_Fields/unauthorized_user/SearchFieldTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/search_Fields/unauthorized_user/SearchFieldTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/helpers/PageActionHelper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/helpers/PageActionHelper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pages/HomePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/HomePage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pages/PageBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/PageBase.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/TestBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/TestBase.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/home_page/HomePageTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/home_page/HomePageTests.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/user/RegistrationTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/user/RegistrationTests.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,8 +64,8 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
-  <component name="RunManager" selected="TestNG.HomePageTests.changeLanguageTest">
-    <configuration name="HomePageTests.changeLanguageTest" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.HomePageTests.changeLanguageTestDataProvider">
+    <configuration name="HomePageTests.changeLanguageTestDataProvider" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="QA31" />
       <extension name="coverage">
         <pattern>
@@ -73,7 +75,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="tests.home_page" />
       <option name="MAIN_CLASS_NAME" value="tests.home_page.HomePageTests" />
-      <option name="METHOD_NAME" value="changeLanguageTest" />
+      <option name="METHOD_NAME" value="changeLanguageTestDataProvider" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -135,13 +137,31 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SearchFieldTests.testCase_5_01" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="QA31" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.search_Fields.unauthorized_user.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests.search_Fields.unauthorized_user" />
+      <option name="MAIN_CLASS_NAME" value="tests.search_Fields.unauthorized_user.SearchFieldTests" />
+      <option name="METHOD_NAME" value="testCase_5_01" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.HomePageTests.changeLanguageTestDataProvider" />
+        <item itemvalue="TestNG.SearchFieldTests.testCase_5_01" />
         <item itemvalue="TestNG.RegistrationTests.registrationPositiveTest" />
         <item itemvalue="TestNG.HomePageTests.test1" />
         <item itemvalue="TestNG.HomePageTests.homePageValidationTest" />
-        <item itemvalue="TestNG.HomePageTests.changeLanguageTest" />
-        <item itemvalue="TestNG.RegistrationTests.registrationPositiveTest" />
       </list>
     </recent_temporary>
   </component>

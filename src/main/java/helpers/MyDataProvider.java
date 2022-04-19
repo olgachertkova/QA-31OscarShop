@@ -1,13 +1,13 @@
 package helpers;
 
+
+import org.testng.annotations.DataProvider;
+
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
-import org.testng.annotations.DataProvider;
 
 public class MyDataProvider {
-    public MyDataProvider() {
-    }
 
     @DataProvider
     public Iterator<Object[]> languageCheck() {

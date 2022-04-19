@@ -15,29 +15,20 @@ public class SearchFieldTests extends TestBase {
     HomePage homePage;
     SearchPage searchPage;
 
-    public SearchFieldTests() {
-    }
-
     @BeforeMethod
     public void initTest() {
         homePage = PageFactory.initElements(driver, HomePage.class);
         searchPage = PageFactory.initElements(driver, SearchPage.class);
     }
 
-    @Test(
-            dataProviderClass = MyDataProvider.class,
-            dataProvider = "searchingForExistingProductTest"
-    )
+    @Test(dataProvider = "searchingForExistingProductTest",dataProviderClass = MyDataProvider.class)
     public void testCase_5_01(String item) {
         homePage.fillSearchField(item);
         homePage.clickOnSearchBtn();
         Assert.assertTrue(searchPage.elementCountCheck(searchPage.elementsCount()));
     }
 
-    @Test(
-            dataProviderClass = MyDataProvider.class,
-            dataProvider = "searchingForExistingProductTest"
-    )
+    @Test(dataProvider = "searchingForExistingProductTest",dataProviderClass = MyDataProvider.class)
     public void testCase_5_02(String item) {
         homePage.fillSearchField(item);
         Actions actions = new Actions(driver);
@@ -45,20 +36,14 @@ public class SearchFieldTests extends TestBase {
         Assert.assertTrue(searchPage.elementCountCheck(searchPage.elementsCount()));
     }
 
-    @Test(
-            dataProviderClass = MyDataProvider.class,
-            dataProvider = "searchingForSpecificItem"
-    )
+    @Test(dataProvider = "searchingForSpecificItem",dataProviderClass = MyDataProvider.class)
     public void testCase_5_03(String item) {
         homePage.fillSearchField(item);
         homePage.clickOnSearchBtn();
         Assert.assertTrue(searchPage.itemValueCheck(item));
     }
 
-    @Test(
-            dataProviderClass = MyDataProvider.class,
-            dataProvider = "searchingForSpecificItem"
-    )
+    @Test(dataProvider = "searchingForSpecificItem",dataProviderClass = MyDataProvider.class)
     public void testCase_5_04(String item) {
         homePage.fillSearchField(item);
         Actions actions = new Actions(driver);

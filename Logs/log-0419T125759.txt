@@ -1,0 +1,9 @@
+5010 [main] INFO  tests.TestBase - Start test: changeLanguageTestDataProvider
+5018 [main] INFO  tests.TestBase -  --> With data: [ru, ���������]
+6525 [main] ERROR tests.TestBase - Test result: FAILED
+6744 [main] INFO  tests.TestBase - Start test: changeLanguageTestDataProvider
+6744 [main] INFO  tests.TestBase -  --> With data: [ca, Anar]
+6748 [main] INFO  tests.TestBase - Start test: changeLanguageTestDataProvider
+6748 [main] INFO  tests.TestBase -  --> With data: [fi, Suorita]
+6751 [main] INFO  tests.TestBase - Start test: changeLanguageTestDataProvider
+6751 [main] INFO  tests.TestBase -  --> With data: [sk, Vykona?]

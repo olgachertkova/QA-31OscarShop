@@ -6,6 +6,7 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 import pages.HomePage;
 import tests.TestBase;
+import helpers.MyDataProvider;
 
 
 public class HomePageTests extends TestBase {

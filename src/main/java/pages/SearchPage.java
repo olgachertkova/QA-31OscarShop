@@ -24,18 +24,10 @@ public class SearchPage extends PageBase {
     public boolean itemValueCheck(String item) {
         List<WebElement> elements = driver.findElements(By.xpath("//h3"));
         System.out.println(elements.size());
-        Iterator var3 = elements.iterator();
-
-        String eleementText;
-        do {
-            if (!var3.hasNext()) {
-                return false;
-            }
-
-            WebElement el = (WebElement)var3.next();
-            eleementText = el.getText();
-        } while(!eleementText.equalsIgnoreCase(item));
-
-        return true;
+        for (WebElement el:elements) {
+            String elementText = el.getText();
+            if(elementText.equalsIgnoreCase(item)) return true;
+        }
+        return false;
     }
 }
