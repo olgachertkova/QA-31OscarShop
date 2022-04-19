@@ -23,6 +23,10 @@ public class HomePage extends PageBase{
     WebElement goButton;
     @FindBy(css = ".basket-mini a.btn")
     WebElement basketButton;
+    @FindBy(xpath = "//input[@id='id_q']")
+    WebElement searchField;
+    @FindBy(xpath = "//input[@value='Search']")
+    WebElement searchBtn;
 
 
     public boolean homeLinkIsVisible() {
@@ -53,5 +57,13 @@ public class HomePage extends PageBase{
 
     public String getTextFromBasketButton() {
         return basketButton.getText();
+    }
+
+    public void fillSearchField(String item){
+        type(searchField,item);
+
+    }
+    public void clickOnSearchBtn(){
+        searchBtn.click();
     }
 }

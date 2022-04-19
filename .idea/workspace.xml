@@ -141,7 +141,7 @@
         <item itemvalue="TestNG.HomePageTests.test1" />
         <item itemvalue="TestNG.HomePageTests.homePageValidationTest" />
         <item itemvalue="TestNG.HomePageTests.changeLanguageTest" />
-        <item itemvalue="TestNG.HomePageTests.changeLanguageTest" />
+        <item itemvalue="TestNG.RegistrationTests.registrationPositiveTest" />
       </list>
     </recent_temporary>
   </component>
