@@ -1,0 +1,68 @@
+5584 [main] INFO  tests.TestBase - Start test: testCase_5_01
+5587 [main] INFO  tests.TestBase -  --> With data: [book]
+7637 [main] INFO  tests.TestBase - Test result: PASSED
+7637 [main] INFO  tests.TestBase - Stop test: testCase_5_01
+7637 [main] INFO  tests.TestBase - ======================================================
+11345 [main] INFO  tests.TestBase - Start test: testCase_5_01
+11345 [main] INFO  tests.TestBase -  --> With data: [T-shirt]
+12002 [main] INFO  tests.TestBase - Test result: PASSED
+12002 [main] INFO  tests.TestBase - Stop test: testCase_5_01
+12002 [main] INFO  tests.TestBase - ======================================================
+16534 [main] INFO  tests.TestBase - Start test: testCase_5_01
+16534 [main] INFO  tests.TestBase -  --> With data: [computers]
+18207 [main] INFO  tests.TestBase - Test result: PASSED
+18207 [main] INFO  tests.TestBase - Stop test: testCase_5_01
+18207 [main] INFO  tests.TestBase - ======================================================
+21655 [main] INFO  tests.TestBase - Start test: testCase_5_02
+21655 [main] INFO  tests.TestBase -  --> With data: [book]
+23448 [main] INFO  tests.TestBase - Test result: PASSED
+23448 [main] INFO  tests.TestBase - Stop test: testCase_5_02
+23448 [main] INFO  tests.TestBase - ======================================================
+26913 [main] INFO  tests.TestBase - Start test: testCase_5_02
+26913 [main] INFO  tests.TestBase -  --> With data: [T-shirt]
+27724 [main] INFO  tests.TestBase - Test result: PASSED
+27724 [main] INFO  tests.TestBase - Stop test: testCase_5_02
+27724 [main] INFO  tests.TestBase - ======================================================
+31389 [main] INFO  tests.TestBase - Start test: testCase_5_02
+31389 [main] INFO  tests.TestBase -  --> With data: [computers]
+33177 [main] INFO  tests.TestBase - Test result: PASSED
+33177 [main] INFO  tests.TestBase - Stop test: testCase_5_02
+33177 [main] INFO  tests.TestBase - ======================================================
+36496 [main] INFO  tests.TestBase - Start test: testCase_5_03
+36497 [main] INFO  tests.TestBase -  --> With data: [Reviewing C++]
+37581 [main] INFO  tests.TestBase - Test result: PASSED
+37581 [main] INFO  tests.TestBase - Stop test: testCase_5_03
+37582 [main] INFO  tests.TestBase - ======================================================
+41301 [main] INFO  tests.TestBase - Start test: testCase_5_03
+41301 [main] INFO  tests.TestBase -  --> With data: [The shellcoder's handbook]
+42257 [main] INFO  tests.TestBase - Test result: PASSED
+42257 [main] INFO  tests.TestBase - Stop test: testCase_5_03
+42257 [main] INFO  tests.TestBase - ======================================================
+46055 [main] INFO  tests.TestBase - Start test: testCase_5_03
+46055 [main] INFO  tests.TestBase -  --> With data: [Oscar T-shirt]
+46745 [main] INFO  tests.TestBase - Test result: PASSED
+46745 [main] INFO  tests.TestBase - Stop test: testCase_5_03
+46745 [main] INFO  tests.TestBase - ======================================================
+50645 [main] INFO  tests.TestBase - Start test: testCase_5_04
+50645 [main] INFO  tests.TestBase -  --> With data: [Reviewing C++]
+51668 [main] INFO  tests.TestBase - Test result: PASSED
+51668 [main] INFO  tests.TestBase - Stop test: testCase_5_04
+51668 [main] INFO  tests.TestBase - ======================================================
+55609 [main] INFO  tests.TestBase - Start test: testCase_5_04
+55609 [main] INFO  tests.TestBase -  --> With data: [The shellcoder's handbook]
+56442 [main] INFO  tests.TestBase - Test result: PASSED
+56442 [main] INFO  tests.TestBase - Stop test: testCase_5_04
+56442 [main] INFO  tests.TestBase - ======================================================
+60214 [main] INFO  tests.TestBase - Start test: testCase_5_04
+60214 [main] INFO  tests.TestBase -  --> With data: [Oscar T-shirt]
+60880 [main] INFO  tests.TestBase - Test result: PASSED
+60880 [main] INFO  tests.TestBase - Stop test: testCase_5_04
+60880 [main] INFO  tests.TestBase - ======================================================
+64508 [main] INFO  tests.TestBase - Start test: testCase_5_05
+65152 [main] INFO  tests.TestBase - Test result: PASSED
+65152 [main] INFO  tests.TestBase - Stop test: testCase_5_05
+65152 [main] INFO  tests.TestBase - ======================================================
+68758 [main] INFO  tests.TestBase - Start test: testCase_5_06
+69427 [main] INFO  tests.TestBase - Test result: PASSED
+69427 [main] INFO  tests.TestBase - Stop test: testCase_5_06
+69427 [main] INFO  tests.TestBase - ======================================================

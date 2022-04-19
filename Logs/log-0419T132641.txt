@@ -1,0 +1,15 @@
+5273 [main] INFO  tests.TestBase - Start test: changeLanguageTest2
+5280 [main] INFO  tests.TestBase -  --> With data: [ru, Выполнить]
+7826 [main] INFO  tests.TestBase - Test result: PASSED
+7826 [main] INFO  tests.TestBase - Stop test: changeLanguageTest2
+7826 [main] INFO  tests.TestBase - ======================================================
+11778 [main] INFO  tests.TestBase - Start test: changeLanguageTest2
+11778 [main] INFO  tests.TestBase -  --> With data: [de, Ausführen]
+13622 [main] INFO  tests.TestBase - Test result: PASSED
+13622 [main] INFO  tests.TestBase - Stop test: changeLanguageTest2
+13622 [main] INFO  tests.TestBase - ======================================================
+17319 [main] INFO  tests.TestBase - Start test: changeLanguageTest2
+17319 [main] INFO  tests.TestBase -  --> With data: [en-gb, Go]
+20710 [main] INFO  tests.TestBase - Test result: PASSED
+20710 [main] INFO  tests.TestBase - Stop test: changeLanguageTest2
+20710 [main] INFO  tests.TestBase - ======================================================

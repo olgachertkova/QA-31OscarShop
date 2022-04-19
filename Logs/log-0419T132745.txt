@@ -1,0 +1,15 @@
+4984 [main] INFO  tests.TestBase - Start test: testCase_5_01
+4987 [main] INFO  tests.TestBase -  --> With data: [book]
+7565 [main] INFO  tests.TestBase - Test result: PASSED
+7565 [main] INFO  tests.TestBase - Stop test: testCase_5_01
+7565 [main] INFO  tests.TestBase - ======================================================
+11488 [main] INFO  tests.TestBase - Start test: testCase_5_01
+11488 [main] INFO  tests.TestBase -  --> With data: [T-shirt]
+12210 [main] INFO  tests.TestBase - Test result: PASSED
+12211 [main] INFO  tests.TestBase - Stop test: testCase_5_01
+12211 [main] INFO  tests.TestBase - ======================================================
+15902 [main] INFO  tests.TestBase - Start test: testCase_5_01
+15902 [main] INFO  tests.TestBase -  --> With data: [computers]
+17578 [main] INFO  tests.TestBase - Test result: PASSED
+17578 [main] INFO  tests.TestBase - Stop test: testCase_5_01
+17578 [main] INFO  tests.TestBase - ======================================================

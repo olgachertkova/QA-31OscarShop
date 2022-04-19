@@ -40,5 +40,12 @@ public class HomePageTests extends TestBase {
         Assert.assertEquals(homePage.getTextFromGoButton(), expTextGoButton, "Texts are different!!");
     }
 
+    @Test(dataProviderClass = MyDataProvider.class, dataProvider = "languageCheck")
+    public void changeLanguageTest2(String lang, String expTextGoButton){
+        homePage.selectLang(lang);
+        homePage.clickOnGoButton();
+        Assert.assertEquals(homePage.getTextFromGoButton(), expTextGoButton, "Texts are different!!");
+    }
+
 
 }
