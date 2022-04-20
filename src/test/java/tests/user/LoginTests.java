@@ -22,6 +22,7 @@ public class LoginTests extends TestBase {
         loginAndRegisterPage = PageFactory.initElements(driver, LoginAndRegisterPage.class);
         homePage = PageFactory.initElements(driver, HomePage.class);
         pageBase = PageFactory.initElements(driver, PageBase.class);
+        resetPasswPage = PageFactory.initElements(driver, ResetPasswordPage.class);
     }
 
     @Test(dataProvider = "loginValidDataCSV", dataProviderClass = MyDataProviderLogin.class)
@@ -71,23 +72,23 @@ public class LoginTests extends TestBase {
 
     }
 
-//    //User enter in to account by pressing on the link "I've forgotten my password".
-//    @Test(dataProvider = "loginInToAccountByClickingForgottenPasswordDataCSV", dataProviderClass = MyDataProviderLogin.class)
-//
-//    public void loginInToAccountByClickingForgottenPassword(String email) {
-//        homePage.openLoginRegForm();
-//
-//        Assert.assertTrue(loginAndRegisterPage.loginFormIsDisplayed());
-//
-//        loginAndRegisterPage.fillEmailAddress(email);
-//        loginAndRegisterPage.clickOnLinkForgottenPassword();
-//
-//        Assert.assertTrue(resetPasswPage.textResetPasswordIsPresent());
-//
-//        resetPasswPage.fillEmailForResetPassw(email);
-//        resetPasswPage.sendResetEmail();
-//        Assert.assertTrue(resetPasswPage.textEmailSendIsPresent());
-//    }
+    //User enter in to account by pressing on the link "I've forgotten my password".
+    @Test(dataProvider = "loginInToAccountByClickingForgottenPasswordDataCSV", dataProviderClass = MyDataProviderLogin.class)
+
+    public void loginInToAccountByClickingForgottenPassword(String email) {
+        homePage.openLoginRegForm();
+
+        Assert.assertTrue(loginAndRegisterPage.loginFormIsDisplayed());
+
+        loginAndRegisterPage.fillEmailAddress(email);
+        loginAndRegisterPage.clickOnLinkForgottenPassword();
+
+        Assert.assertTrue(resetPasswPage.textResetPasswordIsPresent());
+
+        resetPasswPage.fillEmailForResetPassw(email);
+        resetPasswPage.sendResetEmail();
+        Assert.assertTrue(resetPasswPage.textEmailSendIsPresent());
+    }
 
 
 }
