@@ -12,6 +12,8 @@ public class LoginAndRegisterPage extends PageBase{
 
     @FindBy(id = "register_form")
     WebElement registerForm;
+    @FindBy(css = "a[href='/en-gb/accounts/']")
+    WebElement account;
 
     public boolean loginAndRegistrationFormIsOpened() {
         return registerForm.isDisplayed();
@@ -31,6 +33,11 @@ public class LoginAndRegisterPage extends PageBase{
 
 
     public void clickOnRegisterButton() {
+
         click(driver.findElement(By.cssSelector("[name=\"registration_submit\"]")));
+    }
+
+    public void clickOnAccountButtom() {
+        account.click();
     }
 }

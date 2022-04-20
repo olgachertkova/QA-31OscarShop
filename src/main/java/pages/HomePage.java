@@ -1,12 +1,12 @@
 package pages;
 
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
+import org.openqa.selenium.*;
 import org.openqa.selenium.support.FindBy;
+import org.testng.Assert;
 
-public class HomePage extends PageBase{
+import java.util.List;
 
+public class HomePage extends PageBase {
     public HomePage(WebDriver driver) {
         super(driver);
     }
@@ -15,14 +15,23 @@ public class HomePage extends PageBase{
     WebElement homePageLink;
     @FindBy(id = "login_link")
     WebElement loginAndRegisterButton;
+    //  @FindBy(xpath = "//div[@class='alertinner wicon']")
     @FindBy(css = ".alertinner.wicon")
     WebElement registerSuccessMessage;
-    @FindBy(css = "[name=\"language\"]")
+    @FindBy(css = "select[name='language']")
     WebElement langSelector;
-    @FindBy(css = "button.btn.btn-default[type=\"submit\"]")
+    @FindBy(css = "button[class='btn btn-default']")
     WebElement goButton;
-    @FindBy(css = ".basket-mini a.btn")
+    @FindBy(css = ".basket-mini a.btn.btn-default")
     WebElement basketButton;
+    @FindBy(xpath = "//input[@id='id_login-username']")
+    WebElement emailField;
+    @FindBy(xpath = "//input[@id='id_login-password']")
+    WebElement passwordField;
+    @FindBy(css = "button[value='Log In']")
+    WebElement loginButton;
+    @FindBy(id = "\"register_form")
+    WebElement registerForm;
 
 
     public boolean homeLinkIsVisible() {
@@ -30,7 +39,6 @@ public class HomePage extends PageBase{
     }
 
     public void clickToLoginAndRegisterButton() {
-//        click(loginAndRegisterButton);
         loginAndRegisterButton.click();
     }
 
@@ -39,7 +47,7 @@ public class HomePage extends PageBase{
         return registerSuccessMessage.isDisplayed();
     }
 
-    public void selectLang(String lang) {
+    public void selectLanguage(String lang) {
         selectInDropDownByValue(langSelector, lang);
     }
 
@@ -48,10 +56,20 @@ public class HomePage extends PageBase{
     }
 
     public String getTextFromGoButton() {
+        System.out.println(goButton.getText());
         return goButton.getText();
     }
 
     public String getTextFromBasketButton() {
+        System.out.println(basketButton.getText());
         return basketButton.getText();
+    }
+    public void login(String email, String password){
+        clickToLoginAndRegisterButton();
+        //     Assert.assertTrue(loginAndRegisterPage.loginAndRegistrationFormIsOpened());
+        inputText(emailField,email);
+        inputText(passwordField,password);
+        click(loginButton);
+        Assert.assertTrue(driver.findElement(By.xpath("//a[@id='logout_link']")).isEnabled());
     }
 }
