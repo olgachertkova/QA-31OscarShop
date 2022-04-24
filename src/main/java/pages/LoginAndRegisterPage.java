@@ -12,6 +12,12 @@ public class LoginAndRegisterPage extends PageBase{
 
     @FindBy(id = "register_form")
     WebElement registerForm;
+    @FindBy(xpath = "//input[@id='id_login-username']")
+    WebElement loginForm_email;
+    @FindBy(xpath = "//input[@id='id_login-password']")
+    WebElement loginForm_pass;
+    @FindBy(xpath = "//button[normalize-space()='Log In']")
+    WebElement loginBtn;
 
     public boolean loginAndRegistrationFormIsOpened() {
         return registerForm.isDisplayed();
@@ -32,5 +38,17 @@ public class LoginAndRegisterPage extends PageBase{
 
     public void clickOnRegisterButton() {
         click(driver.findElement(By.cssSelector("[name=\"registration_submit\"]")));
+    }
+
+    public void fillLogEmail(String email){
+        inputText(loginForm_email,email);
+    }
+
+    public void fillLogPass(String pass){
+        inputText(loginForm_pass,pass);
+    }
+
+    public void loginBtnClick(){
+        loginBtn.click();
     }
 }

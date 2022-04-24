@@ -1,0 +1,4 @@
+4517 [main] INFO  tests.TestBase - Start test: testCase_5_06
+5196 [main] INFO  tests.TestBase - Test result: PASSED
+5196 [main] INFO  tests.TestBase - Stop test: testCase_5_06
+5197 [main] INFO  tests.TestBase - ======================================================

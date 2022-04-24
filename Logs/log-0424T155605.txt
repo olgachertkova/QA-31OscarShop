@@ -1,0 +1,15 @@
+4323 [main] INFO  tests.TestBase - Start test: testCase_5_07
+4326 [main] INFO  tests.TestBase -  --> With data: [book]
+12169 [main] INFO  tests.TestBase - Test result: PASSED
+12169 [main] INFO  tests.TestBase - Stop test: testCase_5_07
+12169 [main] INFO  tests.TestBase - ======================================================
+15496 [main] INFO  tests.TestBase - Start test: testCase_5_07
+15497 [main] INFO  tests.TestBase -  --> With data: [T-shirt]
+22043 [main] INFO  tests.TestBase - Test result: PASSED
+22044 [main] INFO  tests.TestBase - Stop test: testCase_5_07
+22044 [main] INFO  tests.TestBase - ======================================================
+25991 [main] INFO  tests.TestBase - Start test: testCase_5_07
+25991 [main] INFO  tests.TestBase -  --> With data: [computers]
+31548 [main] INFO  tests.TestBase - Test result: PASSED
+31548 [main] INFO  tests.TestBase - Stop test: testCase_5_07
+31548 [main] INFO  tests.TestBase - ======================================================

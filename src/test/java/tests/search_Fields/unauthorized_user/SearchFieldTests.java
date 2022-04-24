@@ -66,5 +66,7 @@ public class SearchFieldTests extends TestBase {
         Actions actions = new Actions(driver);
         actions.sendKeys(new CharSequence[]{Keys.ENTER}).perform();
         Assert.assertFalse(searchPage.elementCountCheck(searchPage.elementsCount()));
+        Assert.assertFalse((searchPage.itemValueCheck(item)));
     }
+
 }

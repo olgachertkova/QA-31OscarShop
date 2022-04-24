@@ -1,0 +1,6 @@
+4024 [main] INFO  tests.TestBase - Start test: testCase_5_07
+4027 [main] INFO  tests.TestBase -  --> With data: [book]
+8678 [main] INFO  tests.TestBase - Start test: testCase_5_07
+8678 [main] INFO  tests.TestBase -  --> With data: [T-shirt]
+8680 [main] INFO  tests.TestBase - Start test: testCase_5_07
+8680 [main] INFO  tests.TestBase -  --> With data: [computers]

@@ -25,8 +25,9 @@ public class HomePage extends PageBase{
     WebElement basketButton;
     @FindBy(xpath = "//input[@id='id_q']")
     WebElement searchField;
-    @FindBy(xpath = "//input[@value='Search']")
+    @FindBy(xpath = "//input[@type='submit']")
     WebElement searchBtn;
+
 
 
     public boolean homeLinkIsVisible() {
@@ -65,5 +66,11 @@ public class HomePage extends PageBase{
     }
     public void clickOnSearchBtn(){
         searchBtn.click();
+    }
+    public void clickOnSearchField(){
+        searchField.click();
+    }
+    public boolean loginAndRegisterBtnIsVisible(){
+        return loginAndRegisterButton.isDisplayed();
     }
 }

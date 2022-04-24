@@ -16,6 +16,7 @@ public class PageBase {
     public PageBase(WebDriver driver){
         this.driver = driver;
     }
+
     public void uploadFile(WebElement element, String filePath){
         waitUntilElementClickable(element, timeWaitElement);
         inputText(element, filePath);
@@ -47,7 +48,7 @@ public class PageBase {
         languageSelect.selectByValue(value);
     }
 
-    void waitUntilElementClickable(WebElement element, int time) {
+    public void waitUntilElementClickable(WebElement element, int time) {
         try {
             new WebDriverWait(driver, time).until(ExpectedConditions.elementToBeClickable(element));
         } catch (Exception e) {
@@ -55,7 +56,7 @@ public class PageBase {
         }
     }
 
-    void waitUntilElementVisible (WebElement element, int time){
+    public void waitUntilElementVisible (WebElement element, int time){
         try {
             new WebDriverWait(driver, time).until(ExpectedConditions.visibilityOf(element));
         } catch (Exception e){
@@ -63,7 +64,7 @@ public class PageBase {
         }
     }
 
-    void waitUntilElementInVisible (WebElement element, int time){
+    public void waitUntilElementInVisible (WebElement element, int time){
         try {
             new WebDriverWait(driver, time).until(ExpectedConditions.invisibilityOf(element));
         } catch (Exception e){
@@ -71,7 +72,7 @@ public class PageBase {
         }
     }
 
-    void waitUntilAllElementsVisible (List<WebElement> elements, int time){
+    public void waitUntilAllElementsVisible (List<WebElement> elements, int time){
         try {
             new WebDriverWait(driver, time).until(ExpectedConditions.visibilityOfAllElements(elements));
         } catch (Exception e){

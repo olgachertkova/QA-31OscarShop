@@ -4,58 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9d0d0fd9-0987-4315-b6b9-4bdfcb477abd" name="Changes" comment="commit 19_04_new_branch3">
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_findbugs_jsr305_1_3_9.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_gson_gson_2_6_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_errorprone_error_prone_annotations_2_1_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_25_0_jre.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_j2objc_j2objc_annotations_1_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_squareup_okhttp3_okhttp_3_11_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_squareup_okio_okio_1_14_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_thoughtworks_qdox_qdox_2_0_M9.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_11.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_5.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_8_15.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_exec_1_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_maven_model_3_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_maven_plugin_api_3_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_maven_toolchain_3_0_alpha_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_plugins_maven_surefire_plugin_maven_plugin_3_0_0_M5.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_shared_maven_artifact_transfer_0_11_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_shared_maven_common_artifact_filters_3_0_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_shared_maven_shared_utils_3_1_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_surefire_maven_surefire_common_3_0_0_M5.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_surefire_surefire_api_3_0_0_M5.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_surefire_surefire_booter_3_0_0_M5.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_surefire_surefire_extensions_api_3_0_0_M5.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_surefire_surefire_extensions_spi_3_0_0_M5.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_surefire_surefire_logger_api_3_0_0_M5.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_surefire_surefire_shared_utils_3_0_0_M4.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_checkerframework_checker_compat_qual_2_0_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_mojo_animal_sniffer_annotations_1_14.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_plexus_plexus_classworlds_2_2_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_plexus_plexus_java_1_0_5.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_7_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_api_3_141_59.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_chrome_driver_3_141_59.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_edge_driver_3_141_59.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_firefox_driver_3_141_59.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_ie_driver_3_141_59.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_java_3_141_59.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_opera_driver_3_141_59.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_remote_driver_3_141_59.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_safari_driver_3_141_59.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_support_3_141_59.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_sonatype_sisu_sisu_guice_noaop_2_1_7.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_sonatype_sisu_sisu_inject_bean_1_4_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_sonatype_sisu_sisu_inject_plexus_1_4_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__ru_yandex_qatools_ashot_ashot_1_5_4.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_19_04_2022_11_17__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_19_04_2022_11_17__Changes_.xml" afterDir="false" />
+    <list default="true" id="9d0d0fd9-0987-4315-b6b9-4bdfcb477abd" name="Changes" comment="commit 19_04_new_branch_success">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/helpers/PageActionHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/helpers/PageActionHelper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/home_page/HomePageTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/home_page/HomePageTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/home_page/HomePageTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/home_page/HomePageTests.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/LoginAndRegisterPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/LoginAndRegisterPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/PageBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/PageBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/ProfilePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/ProfilePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/search_Fields/authorized_user/SearchFieldTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/search_Fields/authorized_user/SearchFieldTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/search_Fields/unauthorized_user/SearchFieldTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/search_Fields/unauthorized_user/SearchFieldTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pages/HomePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/HomePage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pages/LoginAndRegisterPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/LoginAndRegisterPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pages/PageBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/PageBase.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pages/ProfilePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/ProfilePage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/search_Fields/authorized_user/SearchFieldTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/search_Fields/authorized_user/SearchFieldTests.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/search_Fields/unauthorized_user/SearchFieldTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/search_Fields/unauthorized_user/SearchFieldTests.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,71 +61,17 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
-  <component name="RunManager" selected="TestNG.SearchFieldTests">
-    <configuration name="HomePageTests.changeLanguageTest2" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="QA31" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.home_page.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests.home_page" />
-      <option name="MAIN_CLASS_NAME" value="tests.home_page.HomePageTests" />
-      <option name="METHOD_NAME" value="changeLanguageTest2" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="HomePageTests.changeLanguageTestDataProvider" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="QA31" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.home_page.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests.home_page" />
-      <option name="MAIN_CLASS_NAME" value="tests.home_page.HomePageTests" />
-      <option name="METHOD_NAME" value="changeLanguageTestDataProvider" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RegistrationTests.registrationPositiveTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="QA31" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.user.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests.user" />
-      <option name="MAIN_CLASS_NAME" value="tests.user.RegistrationTests" />
-      <option name="METHOD_NAME" value="registrationPositiveTest" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="TestNG.SearchFieldTests.testCase_5_12">
     <configuration name="SearchFieldTests" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="QA31" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tests.search_Fields.unauthorized_user.*" />
+          <option name="PATTERN" value="tests.search_Fields.authorized_user.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="tests.search_Fields.unauthorized_user" />
-      <option name="MAIN_CLASS_NAME" value="tests.search_Fields.unauthorized_user.SearchFieldTests" />
+      <option name="PACKAGE_NAME" value="tests.search_Fields.authorized_user" />
+      <option name="MAIN_CLASS_NAME" value="tests.search_Fields.authorized_user.SearchFieldTests" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -171,17 +79,71 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SearchFieldTests.testCase_5_01" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="SearchFieldTests.testCase_5_07" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="QA31" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tests.search_Fields.unauthorized_user.*" />
+          <option name="PATTERN" value="tests.search_Fields.authorized_user.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="tests.search_Fields.unauthorized_user" />
-      <option name="MAIN_CLASS_NAME" value="tests.search_Fields.unauthorized_user.SearchFieldTests" />
-      <option name="METHOD_NAME" value="testCase_5_01" />
+      <option name="PACKAGE_NAME" value="tests.search_Fields.authorized_user" />
+      <option name="MAIN_CLASS_NAME" value="tests.search_Fields.authorized_user.SearchFieldTests" />
+      <option name="METHOD_NAME" value="testCase_5_07" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SearchFieldTests.testCase_5_08" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="QA31" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.search_Fields.authorized_user.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests.search_Fields.authorized_user" />
+      <option name="MAIN_CLASS_NAME" value="tests.search_Fields.authorized_user.SearchFieldTests" />
+      <option name="METHOD_NAME" value="testCase_5_08" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SearchFieldTests.testCase_5_09" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="QA31" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.search_Fields.authorized_user.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests.search_Fields.authorized_user" />
+      <option name="MAIN_CLASS_NAME" value="tests.search_Fields.authorized_user.SearchFieldTests" />
+      <option name="METHOD_NAME" value="testCase_5_09" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SearchFieldTests.testCase_5_12" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="QA31" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.search_Fields.authorized_user.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests.search_Fields.authorized_user" />
+      <option name="MAIN_CLASS_NAME" value="tests.search_Fields.authorized_user.SearchFieldTests" />
+      <option name="METHOD_NAME" value="testCase_5_12" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -191,11 +153,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.SearchFieldTests.testCase_5_12" />
         <item itemvalue="TestNG.SearchFieldTests" />
-        <item itemvalue="TestNG.SearchFieldTests.testCase_5_01" />
-        <item itemvalue="TestNG.HomePageTests.changeLanguageTest2" />
-        <item itemvalue="TestNG.HomePageTests.changeLanguageTestDataProvider" />
-        <item itemvalue="TestNG.RegistrationTests.registrationPositiveTest" />
+        <item itemvalue="TestNG.SearchFieldTests.testCase_5_09" />
+        <item itemvalue="TestNG.SearchFieldTests.testCase_5_07" />
+        <item itemvalue="TestNG.SearchFieldTests.testCase_5_08" />
       </list>
     </recent_temporary>
   </component>
@@ -236,7 +198,14 @@
       <option name="project" value="LOCAL" />
       <updated>1650354530791</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="commit 19_04_new_branch_success">
+      <created>1650364339497</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1650364339497</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -255,6 +224,7 @@
     <MESSAGE value="first commit" />
     <MESSAGE value="commit 08.04" />
     <MESSAGE value="commit 19_04" />
-    <option name="LAST_COMMIT_MESSAGE" value="commit 19_04" />
+    <MESSAGE value="commit 19_04_new_branch_success" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit 19_04_new_branch_success" />
   </component>
 </project>

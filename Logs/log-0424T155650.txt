@@ -1,0 +1,41 @@
+4079 [main] INFO  tests.TestBase - Start test: testCase_5_07
+4081 [main] INFO  tests.TestBase -  --> With data: [book]
+10697 [main] INFO  tests.TestBase - Test result: PASSED
+10697 [main] INFO  tests.TestBase - Stop test: testCase_5_07
+10697 [main] INFO  tests.TestBase - ======================================================
+15162 [main] INFO  tests.TestBase - Start test: testCase_5_07
+15162 [main] INFO  tests.TestBase -  --> With data: [T-shirt]
+20258 [main] INFO  tests.TestBase - Test result: PASSED
+20259 [main] INFO  tests.TestBase - Stop test: testCase_5_07
+20259 [main] INFO  tests.TestBase - ======================================================
+23618 [main] INFO  tests.TestBase - Start test: testCase_5_07
+23618 [main] INFO  tests.TestBase -  --> With data: [computers]
+29931 [main] INFO  tests.TestBase - Test result: PASSED
+29931 [main] INFO  tests.TestBase - Stop test: testCase_5_07
+29931 [main] INFO  tests.TestBase - ======================================================
+33485 [main] INFO  tests.TestBase - Start test: testCase_5_08
+33485 [main] INFO  tests.TestBase -  --> With data: [book]
+39765 [main] INFO  tests.TestBase - Test result: PASSED
+39766 [main] INFO  tests.TestBase - Stop test: testCase_5_08
+39766 [main] INFO  tests.TestBase - ======================================================
+43235 [main] INFO  tests.TestBase - Start test: testCase_5_08
+43236 [main] INFO  tests.TestBase -  --> With data: [T-shirt]
+48105 [main] INFO  tests.TestBase - Test result: PASSED
+48106 [main] INFO  tests.TestBase - Stop test: testCase_5_08
+48106 [main] INFO  tests.TestBase - ======================================================
+51893 [main] INFO  tests.TestBase - Start test: testCase_5_08
+51893 [main] INFO  tests.TestBase -  --> With data: [computers]
+55756 [main] INFO  tests.TestBase - Start test: testCase_5_09
+55756 [main] INFO  tests.TestBase -  --> With data: [Reviewing C++]
+55757 [main] INFO  tests.TestBase - Start test: testCase_5_09
+55758 [main] INFO  tests.TestBase -  --> With data: [The shellcoder's handbook]
+55759 [main] INFO  tests.TestBase - Start test: testCase_5_09
+55759 [main] INFO  tests.TestBase -  --> With data: [Oscar T-shirt]
+55762 [main] INFO  tests.TestBase - Start test: testCase_5_10
+55762 [main] INFO  tests.TestBase -  --> With data: [Reviewing C++]
+55763 [main] INFO  tests.TestBase - Start test: testCase_5_10
+55764 [main] INFO  tests.TestBase -  --> With data: [The shellcoder's handbook]
+55765 [main] INFO  tests.TestBase - Start test: testCase_5_10
+55766 [main] INFO  tests.TestBase -  --> With data: [Oscar T-shirt]
+55770 [main] INFO  tests.TestBase - Start test: testCase_5_11
+55772 [main] INFO  tests.TestBase - Start test: testCase_5_12

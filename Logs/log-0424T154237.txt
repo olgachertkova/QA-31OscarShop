@@ -1,0 +1,7 @@
+5255 [main] INFO  tests.TestBase - Start test: testCase_5_07
+5258 [main] INFO  tests.TestBase -  --> With data: [book]
+10088 [main] ERROR tests.TestBase - Test result: FAILED
+10285 [main] INFO  tests.TestBase - Start test: testCase_5_07
+10285 [main] INFO  tests.TestBase -  --> With data: [T-shirt]
+10289 [main] INFO  tests.TestBase - Start test: testCase_5_07
+10289 [main] INFO  tests.TestBase -  --> With data: [computers]

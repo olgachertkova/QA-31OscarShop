@@ -1,0 +1,4 @@
+4392 [main] INFO  tests.TestBase - Start test: test
+9114 [main] INFO  tests.TestBase - Test result: PASSED
+9114 [main] INFO  tests.TestBase - Stop test: test
+9114 [main] INFO  tests.TestBase - ======================================================
